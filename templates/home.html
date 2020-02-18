@@ -1,0 +1,10 @@
+{% include 'layout.html' %}
+
+    {% block body %}
+        {% for post in posts %}
+            <h1>{{ post.title }}</h1>
+            <p> By {{post.user_id}}</p>
+            <p>{{ post.content }}</p>
+
+        {% endfor%}
+    {% endblock %}

@@ -1,0 +1,15 @@
+<html>
+    <head>
+        {% if title %}
+        <title>Blog - {{title}}</title>
+        {%else%}
+        <title>Blog</title>
+        {%endif %}
+    </head>
+    <body>
+        {% block body %}
+
+        {% endblock %}
+    
+    </body>
+</html>

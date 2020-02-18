@@ -1,0 +1,2 @@
+FLASK_APP=flaskblog/__init__.py
+FLASK_ENV=development
